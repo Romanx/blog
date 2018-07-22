@@ -31,6 +31,7 @@ Task("Preview")
    });
 
 Task("Deploy")
+    .IsDependentOn("Build")
     .Does(() =>
     {
         // Add NETLIFY_TOKEN to your enviornment variables
