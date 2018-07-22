@@ -1,5 +1,5 @@
 Title: Hello world
-Published: 22/7/2018
+Published: 22/07/2018
 Tags: Introduction
 Lead: Everything starts with a Hello World doesn't it?
 ---
