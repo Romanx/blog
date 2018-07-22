@@ -1,0 +1,8 @@
+branches:
+  only:
+    - master
+environment:
+  NETLIFY_TOKEN:
+    secure: HQiX/BU99pfnBXOckxBAPGCEtSLAxH41APMqsirTsnGejVlqmDU3V/GZAp8ycFh0NmO3eAhswU3T8KsYn5i72k3meeKLgVoIiFKrk0Glag4=
+build_script:
+- ps: .\build.ps1 -Target Deploy
