@@ -5,7 +5,7 @@ This is just an informal biography about me.
 My name is Alex McAuliffe aka **Romanx**. 
 I'm a software engineer who works mainly in C#/.Net although I dabble in a few languages JS, Java, Go to name a few although most of my work is in the .Net world.
 
-This blog is for rambling about open source projects i've been working on and other assorted things that cross my mind.
+This blog is for rambling about open source projects I've been working on and other assorted things that cross my mind.
 
 ---
 
