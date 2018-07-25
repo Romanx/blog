@@ -6,7 +6,7 @@ Tags:
     - C#
 Lead: "Part 1: Forgive the title, it was too good to pass up."
 ---
-Lets talk about Stubble and why I decided not to just improve Nustache and instead undertake a rewrite.
+Lets talk about [Stubble](https://github.com/stubbleorg/stubble) and why I decided not to just improve Nustache and instead undertake a rewrite.
 
 Some backstory first.
 
