@@ -334,3 +334,5 @@ output/
 config.wyam.hash
 config.wyam.dll
 config.wyam.packages.xml
+
+package-lock.json

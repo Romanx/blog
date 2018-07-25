@@ -3,8 +3,10 @@
 System.Globalization.CultureInfo.DefaultThreadCurrentCulture = System.Globalization.CultureInfo.CreateSpecificCulture("en-GB");
 
 // Customize your settings and add new ones here
+Settings[Keys.LinksUseHttps] = true;
 Settings[Keys.Host] = "romanx.co.uk";
 Settings[BlogKeys.Title] = "Romanx";
 Settings[BlogKeys.Description] = "Welcome!";
+Settings[BlogKeys.ValidateRelativeLinks] = true;
 
 // Add any pipeline customizations here
