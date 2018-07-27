@@ -36,4 +36,4 @@ JDiamond may decide to sometime come back and take ownership again. He may disag
 
 So I wrote a list of what I wanted from a Mustache library and decided to use that as the basis of a new library that I would plan to replace Nustache.
 
-Now we've got the backstory let's actually talk about Stubble in part 2...**(coming soon)**
+Now we've got the backstory let's actually talk about Stubble [in part 2...](trimming-my-nustache-part-2)
