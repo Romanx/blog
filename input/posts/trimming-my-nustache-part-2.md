@@ -7,8 +7,11 @@ Tags:
 Lead: "Part 2: Shaping my Stubble"
 ---
 
-So last time we spoke about why I decided to create a whole new library to replace Nustache rather than just updating it.
+So last time we spoke about why I decided to create a whole new library to replace [Nustache](https://github.com/jdiamond/nustache) rather than just updating it.
 If you haven't read that blog feel free to go read it [here](trimming-my-nustache-part-1) but if you only care about [Stubble](https://github.com/stubbleorg/stubble) then read on.
+
+> **Note:** For those of you that have come to this without any context.
+Nustache is the main Mustache renderer for .NET and what the majority of people are using for rendering Mustache templates.
 
 The list of features that I mentioned that drove the design of Stubble were partially taken from my personal requirements for a Mustache library and partially to get away from some of Nustache's issues.
 I'll list them individually and break down why they were important.

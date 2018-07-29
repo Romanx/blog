@@ -6,7 +6,13 @@ Tags:
     - C#
 Lead: "Part 1: Forgive the title, it was too good to pass up."
 ---
-Lets talk about [Stubble](https://github.com/stubbleorg/stubble) and why I decided not to just improve Nustache and instead undertake a rewrite.
+
+For those of you that have come to this without any context.
+[Nustache](https://github.com/jdiamond/nustache) is the main Mustache renderer for .NET. 
+It has been around for awhile, it is pretty fully featured and robust.
+
+I'm the current maintainer of that project and have been for a few years but no real development has been done on it since I've been working on [Stubble](https://github.com/stubbleorg/stubble).
+So lets talk about it and why I decided not to just improve Nustache and instead undertake a rewrite.
 
 Some backstory first.
 
