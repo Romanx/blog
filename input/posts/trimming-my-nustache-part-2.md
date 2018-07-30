@@ -40,7 +40,7 @@ I wanted performance to not be a reason for not using Stubble. If there's a more
 
 Originally I rolled my own performance testing suite comparising Nustache and Stubble using that Mustache.java twitter test although I replaced this with the excellent [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) as the ecosystem is aligning on it as a tool and covers cases I hadn't.
 
-This has served me well since Alexandre Mutel axa [Xoofx](http://xoofx.com) did a comparsion with their own templating engine for the Liquid templating language against other languages in the ecosystem. Stubble shows as being 2nd in their tests and 1st against other Mustache implementations. 
+This has served me well since Alexandre Mutel aka [Xoofx](http://xoofx.com) did a comparsion with their own templating engine for the Liquid templating language against other languages in the ecosystem. Stubble shows as being 2nd in their tests and 1st against other Mustache implementations.
 The test isn't quite an idomatic mustache one since they have some logic to truncate in their template as a lambda however its a good test. 
 
 You can find the blog post [here](http://xoofx.com/blog/2017/11/13/implementing-a-text-templating-language-and-engine-for-dotnet/) if you're interested in reading more.
