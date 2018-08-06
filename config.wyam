@@ -1,4 +1,5 @@
 #recipe Blog
+#n Wyam.ReadingTime
 
 System.Globalization.CultureInfo.DefaultThreadCurrentCulture = System.Globalization.CultureInfo.CreateSpecificCulture("en-GB");
 
@@ -9,4 +10,4 @@ Settings[BlogKeys.Title] = "Romanx";
 Settings[BlogKeys.Description] = "Welcome!";
 Settings[BlogKeys.ValidateRelativeLinks] = true;
 
-// Add any pipeline customizations here
+Pipelines.AddReadingTimeMeta(200);
