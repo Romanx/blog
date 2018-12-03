@@ -38,7 +38,7 @@ Task("Deploy")
         NpmInstall("netlify-cli");
         StartProcess(
             MakeAbsolute(File("./node_modules/.bin/netlify.cmd")), 
-            $" deploy -d=output");
+            $" deploy -p -d=output");
     });
 
 Task("Default")
