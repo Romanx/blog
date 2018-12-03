@@ -4,7 +4,7 @@ Tags:
     - Wyam
     - Extensions
     - Code 
-    - C#
+    - CSharp
 Lead: Calculating blog reading times for Wyam blogs
 ---
 

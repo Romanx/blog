@@ -3,7 +3,7 @@ Published: 27/7/2018
 Tags: 
     - Stubble 
     - Code 
-    - C#
+    - CSharp
 Lead: "Part 2: Shaping my Stubble"
 ---
 

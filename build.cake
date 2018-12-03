@@ -4,7 +4,7 @@
 
 var target = Argument("target", "Default");
 
-const string SiteName = "gifted-rosalind-45186b";
+const string SiteId = "d6d97cef-2890-4ed4-87fe-8b0d32c34930";
 
 Task("Build")
    .Does(() =>
@@ -38,7 +38,7 @@ Task("Deploy")
         NpmInstall("netlify-cli");
         StartProcess(
             MakeAbsolute(File("./node_modules/.bin/netlify.cmd")), 
-            $"deploy --dir=output --site {SiteName}");
+            $" deploy -d=output");
     });
 
 Task("Default")
