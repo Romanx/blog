@@ -2,7 +2,7 @@ branches:
   only:
     - master
 environment:
-  NETLIFY_TOKEN:
-    secure: HQiX/BU99pfnBXOckxBAPGCEtSLAxH41APMqsirTsnGejVlqmDU3V/GZAp8ycFh0NmO3eAhswU3T8KsYn5i72k3meeKLgVoIiFKrk0Glag4=
+  NETLIFY_AUTH_TOKEN:
+    secure: 3mGGT2/09yYVuAAn6YT/qH7aVIbVjw5GFe50IEg80h8uGpkMVdNzByKSk9Y8luv6q4ABDoxh3fKdC7FSDHt1I7659+mjifctHUXce3tIh04=
 build_script:
 - ps: .\build.ps1 -Target Deploy
