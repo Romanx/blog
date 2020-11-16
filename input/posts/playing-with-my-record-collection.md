@@ -1,11 +1,12 @@
 Title: Playing with my record collection
-Published: 02/12/2018
+Published: 16/11/2020
 Tags: 
     - Code 
     - CSharp
     - New Features
 Lead: Does C# 9 record equality work with collections?
 ---
+
 It's been a while since my last post however this one is born from curiosity and not being able to find the answer to this particular question so hopefully it helps someone else like me.
 
 C# 9 and .NET 5 has been released to much fanfare at .NET Conf 2020 last week which introduced a lot of lovely language features, with one of the major ones being records.
