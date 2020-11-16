@@ -5,7 +5,7 @@ Tags:
     - CSharp
     - Stubble
     - Mustache
-Lead: Custom made tools for your templates
+Lead: Custom made helpers for your mustache templates
 ---
 
 Another post, another long delay. In my last post I teased that I'd been working on another extension to Stubble which would add [handlebars](https://handlebarsjs.com/) style helpers to your mustache templates.
