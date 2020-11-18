@@ -1,5 +1,5 @@
 Title: Playing with my record collection
-Published: 16/11/2020
+Published: 18/11/2020
 Tags: 
     - Code 
     - CSharp
