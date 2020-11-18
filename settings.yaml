@@ -3,6 +3,8 @@ Host: "romanx.co.uk"
 SiteTitle: "Romanx"
 SiteHeader: "Welcome!"
 ValidateRelativeLinks: true
+DateTimeInputCulture: "en-GB"
+DateTimeDisplayCulture: "en-GB"
 
 ReadingTimeWordsPerMinute: 200
 
