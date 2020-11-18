@@ -1,0 +1,7 @@
+LinksUseHttps: true
+Host: "romanx.co.uk"
+SiteTitle: "Romanx"
+SiteHeader: "Welcome!"
+ValidateRelativeLinks: true
+
+ReadingTimeWordsPerMinute: 200

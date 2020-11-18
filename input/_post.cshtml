@@ -1,0 +1,24 @@
+@model IDocument
+
+@{
+    string excerpt = Model.GetString(Statiq.Html.HtmlKeys.Excerpt);
+    var readingMeta = Model.Get<Blog.ReadingTimeMeta>(Blog.ReadingTimeKeys.ReadingTime);
+}
+
+<div class="post-preview">
+    <h2 class="post-title">@Html.DocumentLink(Model)</h2>
+    @if(Model.ContainsKey("Lead"))
+    {
+        <div class="post-subtitle">@Model.GetString("Lead")</div>
+    }
+    <p class="post-meta">
+        Published on @Model.GetDateTime(WebKeys.Published).ToLongDateString()
+        <br />
+        Estimated read time:  @(readingMeta.Minutes == 0 ? $"a couple of seconds" : $"{readingMeta.Minutes} minutes")
+    </p>
+    @if (!string.IsNullOrEmpty(excerpt))
+    {
+        @Html.Raw(excerpt)
+        <p class="small"><a href="@Context.GetLink(Model)">Read more...</a></p>
+    }
+</div>

@@ -1,8 +1,0 @@
-branches:
-  only:
-    - master
-environment:
-  NETLIFY_AUTH_TOKEN:
-    secure: 3mGGT2/09yYVuAAn6YT/qH7aVIbVjw5GFe50IEg80h8uGpkMVdNzByKSk9Y8luv6q4ABDoxh3fKdC7FSDHt1I7659+mjifctHUXce3tIh04=
-build_script:
-- ps: .\build.ps1 -Target Deploy
