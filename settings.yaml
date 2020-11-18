@@ -5,3 +5,5 @@ SiteHeader: "Welcome!"
 ValidateRelativeLinks: true
 
 ReadingTimeWordsPerMinute: 200
+
+NetlifySiteId: "d6d97cef-2890-4ed4-87fe-8b0d32c34930"

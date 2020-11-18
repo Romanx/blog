@@ -1,4 +1,5 @@
 ﻿using Statiq.App;
+using Statiq.Common;
 using Statiq.Web;
 using System.Threading.Tasks;
 
@@ -11,6 +12,9 @@ namespace Blog
             .Factory
             .CreateWeb(args)
             .AddReadingTimeMeta()
+            .DeployToNetlify(
+              Config.FromSetting<string>(""),
+              Config.FromSetting<string>(WebKeys.NetlifyAccessToken))
             .RunAsync();
     }
 }
