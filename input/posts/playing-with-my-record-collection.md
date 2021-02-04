@@ -38,7 +38,7 @@ Person b = new("Steve", "Rogers", new[] { "Captain America", "Captain Rogers" })
 
 We've now added a lovely nickname field to our person, they have the exact same values and since records generally speaking are defined by their contents they should be identical right? No. I thought they would be but unfortunately this does not seem to be the case.
 
-To see what the compiler generates we're going to use an amazing tool by [Andrey Shchekin (@ashmind)] called [sharplab.io](https://sharplab.io).
+To see what the compiler generates we're going to use an amazing tool by [Andrey Shchekin (@ashmind)](https://twitter.com/ashmind) called [sharplab.io](https://sharplab.io).
 This allows us to target a specific build of the .NET compiler and see what the generated code actually looks like.
 The equality checks for our modified code looks like this:
 ```cs
