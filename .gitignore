@@ -336,3 +336,5 @@ config.wyam.dll
 config.wyam.packages.xml
 
 package-lock.json
+
+cache/

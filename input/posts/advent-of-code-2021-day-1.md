@@ -8,7 +8,7 @@ Tags:
 Lead: Someone tripped and fell so of course the elves need 50⭐ again...
 ---
 
-It's that time of year, it get's dark earlier and earlier and the elves are up to their old tricks of making mistakes and having me fix them.
+It's that time of year, it gets dark earlier and earlier and the elves are up to their old tricks of making mistakes and having me fix them.
 This time they've lost Santas sleigh keys by dropping them into the ocean and we have to find 50⭐ to make the experimental antennas signal strength higher to find them.
 
 Sounds like some fun, let's get started on day 1. You can find the challenge [here.](https://adventofcode.com/2021/day/1)
