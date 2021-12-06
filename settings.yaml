@@ -9,3 +9,5 @@ DateTimeDisplayCulture: "en-GB"
 ReadingTimeWordsPerMinute: 200
 
 NetlifySiteId: "d6d97cef-2890-4ed4-87fe-8b0d32c34930"
+
+PostSources: posts/**/*
