@@ -1,5 +1,5 @@
 Title: Advent of Code 2021 - The Treachery of Whales
-Published: 06/12/2021
+Published: 07/12/2021
 Tags:
     - Code
     - CSharp
