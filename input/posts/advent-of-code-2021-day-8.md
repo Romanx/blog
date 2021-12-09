@@ -24,12 +24,12 @@ foreach (var line in lines)
     var patterns = split[0]
         .Split(' ', StringSplitOptions.TrimEntries)
         .Select(x => SortStringOrder(x))
-        .ToImmutableHashSet();
+        .ToHashSet();
 
     var outputValues = split[1]
         .Split(' ', StringSplitOptions.TrimEntries)
         .Select(x => SortStringOrder(x))
-        .ToImmutableArray();
+        .ToArray();
 
     builder.Add(new Entry(patterns, outputValues));
 }
@@ -40,6 +40,8 @@ static string SortStringOrder(string input)
     characters.Sort();
     return new string(characters);
 }
+
+record Entry(HashSet<string> SignalPatterns, string[] OutputValues);
 ```
 
 We're going to sort the signal patterns since the order of the characters doesn't represent anything besides that the signal includes that character.
