@@ -146,11 +146,11 @@ So for part 2 we need to find the basins in the height map. We can do this by ig
 An interesting thing about the input data is that our basins are surrounded by mountains of height 9 so we can use a fill algorithm to find our basin and stop as we can't go past any neighbours of height 9.
 If that didn't make sense hopefully this picture helps some. Note that the the Xs stop where the neighbours are 9 so we can't go further.
 ```
-21999XXXXX
-398789X9XX
-985678989X
-8767896789
-9899965678
+....9XXXXX
+.....9X9XX
+......9.9X
+.........9
+..........
 ```
 
 So starting with our heightmap from Part 1.
@@ -225,11 +225,11 @@ Working with our example from above we can show how the algorithm spreads to col
 We're going to start in the top right corner.
 I'm using `C` for current, `N` for next and `V` for visited.
 ```
-21999432NC    2199943NCV    219994NCVV    21999NCVVV    21999CVVVV    21999VVVVV
-398789492N    39878949NC    39878949CV    398789N9VV    398789C9VV    398789V9VV
-9856789892 -> 985678989N -> 985678989C -> 985678989V -> 985678989V -> 985678989V
-8767896789    8767896789    8767896789    8767896789    8767896789    8767896789
-9899965678    9899965678    9899965678    9899965678    9899965678    9899965678
+....9432NC    ....943NCV    ....94NCVV    ....9NCVVV    ....9CVVVV    ....9VVVVV
+.....9492N    .....949NC    .....949CV    .....9N9VV    .....9C9VV    .....9V9VV
+......9.92 -> ......9.9N -> ......9.9C -> ......9.9V -> ......9.9V -> ......9.9V
+.........9    .........9    .........9    .........9    .........9    .........9
+..........    ..........    ..........    ..........    ..........    ..........
 ```
 
 Hopfully that's a clear diagram of how the search works.
