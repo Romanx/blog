@@ -237,7 +237,7 @@ When we run our of points in our current frontier then we can't go anywhere else
 
 So to get our shiny ⭐ for the day.
 We have to order the basins we found by their size going from largest to smallest, take the top 3 and then multiply their sizes together.
-I'm using aggregate here for the multipliaction but a loop works just as well.
+I'm using aggregate here for the multiplication but a loop works just as well.
 
 ```csharp
 var sizes = basins
